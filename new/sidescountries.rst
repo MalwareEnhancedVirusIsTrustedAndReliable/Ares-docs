@@ -43,6 +43,12 @@ section:
 :tagdef:`[Country]File.LoadScreenPAL=filename, *including* the .pal extension`
   The palette file to use for the country's loading screen, in the format
   "filename.pal".
+:tagdef:`[Country]File.ObserverFlag=filename, *including* the .pcx extension`
+  The PCX file to use for the country flag seen ingame by the observer player, in the format
+  "filename.pcx".
+:tagdef:`[Country]File.ObserverBackground=filename, *including* the .shp extension`
+  The SHP file to use for the country info on the observer's sidebar, in the format
+  "filename.shp".
 :tagdef:`[Country]File.Taunt=filename, *including* the Taunts\ directory and .wav extension`
   Path of the files to use for the country's taunts, in the format
   "Taunts\\filename%02i.wav". The filename specified *must* include "`%02i`",
