@@ -45,7 +45,7 @@ section:
   "filename.pal".
 :tagdef:`[Country]File.ObserverFlag=filename, *including* the .pcx extension`
   The PCX file to use for the country flag seen ingame by the observer player, in the format
-  "filename.pcx".
+  "filename.pcx". If the game can't find the .pcx file, it will try to load an .shp file with that name.
 :tagdef:`[Country]File.ObserverBackground=filename, *including* the .shp extension`
   The SHP file to use for the country info on the observer's sidebar, in the format
   "filename.shp".
